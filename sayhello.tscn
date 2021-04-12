@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://sayhello.gd" type="Script" id=1]
+
+[node name="Panel" type="Panel"]
+margin_left = 124.0
+margin_top = 70.0
+margin_right = 394.0
+margin_bottom = 239.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 83.0
+margin_top = 61.0
+margin_right = 170.0
+margin_bottom = 75.0
+text = "This is a label"
+
+[node name="Button" type="Button" parent="."]
+margin_left = 92.0
+margin_top = 105.0
+margin_right = 163.0
+margin_bottom = 125.0
+text = "Press Me"
+__meta__ = {
+"_edit_use_anchors_": false
+}
